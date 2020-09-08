@@ -1,0 +1,7 @@
+DS_STORE
+./DS_STORE
+.DS_STORE
+
+.env
+.cache
+node_modules
