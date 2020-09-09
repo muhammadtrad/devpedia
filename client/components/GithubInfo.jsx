@@ -5,7 +5,9 @@ const GithubInfo = () => {
 
   return (
     <div className="githubInfo">
-      <h1>githubInfo</h1>
+      <div className="github-box">
+        
+      </div>
     </div>
   );
 };

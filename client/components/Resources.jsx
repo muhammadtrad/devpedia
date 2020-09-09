@@ -5,7 +5,19 @@ const Resources = () => {
 
   return (
     <div className="resources">
-      <h1>resources</h1>
+    <div className="resources-container">
+    <h2>Add Resource</h2>
+      <br />
+      <form>
+        <label>
+        <input type="text" content="content" />
+        </label>
+        <input type="Submit" value="Submit" />
+      </form>
+      <div className="resources-box">
+        
+      </div>
+    </div>
     </div>
   );
 };
