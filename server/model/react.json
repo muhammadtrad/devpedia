@@ -1,0 +1,28 @@
+{
+  "Docs": "https://reactjs.org/docs/getting-started.html",
+  "Github": "https://github.com/facebook/react",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=Ke90Tje7VS0",
+      "https://www.youtube.com/watch?v=DLX62G4lc44",
+      "https://www.youtube.com/watch?v=dGcsHMXbSOA"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=_8HU2ZFJEmU",
+      "https://www.youtube.com/watch?v=FRjlF74_EZk",
+      "https://www.youtube.com/watch?v=Y6aYx_KKM7A"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://reactjs.org/tutorial/tutorial.html",
+      "https://www.w3schools.com/react/",
+      "https://www.freecodecamp.org/news/best-react-javascript-tutorial/"
+    ],
+    "Overviews": [
+      "https://dev.to/krtb/react-explained-5gk",
+      "https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/",
+      "https://codeburst.io/react-components-explained-96718311f20b"
+    ]
+  }
+}
