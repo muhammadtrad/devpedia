@@ -1,11 +1,12 @@
 import React from "react";
+import Main from './Main';
 
 const App = () => {
 
 
   return (
     <div className="app">
-      <h1>Devpedia</h1>
+      <Main />
     </div>
   );
 };
