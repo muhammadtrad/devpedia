@@ -1,6 +1,6 @@
 //model
 const {Pool} = require("pg");
-const process = require("dotenv");
+require("dotenv").config();
 
 
 const pool = new Pool({
@@ -13,14 +13,17 @@ class Model{
   constructor(){
     this.table = null;
     this.pool = pool;
-    this.pool.on("error", (err) => {
-      console.log(" ERROR CONNECTING TO DB ", err);
+    this.pool.on("error", (err, client) => {
+      console.error(` ERROR CONNECTING TO DB ${err}` );
+      process.exit(-1);
     });
   }
 
   select(sqlquery){
+    console.log(`SQL QUERY ${sqlquery}`);
     return this.pool.query(sqlquery);
   }
+
 }
 
 

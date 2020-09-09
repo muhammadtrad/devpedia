@@ -1,13 +1,18 @@
 const express = require("express");
 const app = express();
-const router = express.Router();
+const router = require("./routes/routes")
+const ctrl = require("./controllers/controllers");
 const path = require("path");
-const PORT = 3434
+const PORT = 3434;
+ 
 
+app.use(router);
 
-app.use("/", express.static(path.join(__dirname, "../client/index.html")))
+app.use("/", (req, res, next) => {
 
-router.use("/getHardCodedJSON", )
+  res.status(200);
+
+})
 
 app.listen(PORT, () => {
   console.log(`APP LISTENING ON ${PORT}`);
