@@ -5,7 +5,33 @@ const router = require("./routes/routes")
 const ctrl = require("./controllers/controllers");
 const path = require("path");
 const PORT = 3434;
- 
+
+const { graphqlHTTP } = require("express-graphql");
+const { buildSchema } = require("graphql");
+
+/* type Query{
+  me: User
+}
+
+type User{
+  id: ID
+
+} */
+
+/* const schema = buildSchema(`
+  type Query{
+    username: String,
+    password: String
+  }
+`)
+
+app.use("/graphql", graphqlHTTP({ 
+  schema: schema, 
+  rootValue: root,
+  graphiql: true
+}))
+ */
+
 
 app.use("/db", router);
 

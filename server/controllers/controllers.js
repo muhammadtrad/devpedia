@@ -1,7 +1,8 @@
 //Controller
-let resourcesModel = require("../model/model");
-
+const resourcesModel = require("../model/model");
 const reactResources = require("../model/react.json");
+
+
 const resources = {};
 
 
@@ -23,8 +24,9 @@ resources.getReactHardCodedResources = function(req, res, next){
 
 }
 
-resources.getDBresources = function(req, res, next){
-  resourcesModel.select(`SELECT * FROM "public"."users"`)
+//INSERT INTO Techs (tech_category, name) VALUES (1, ‘Vue’);
+resources.getTech = function(req, res, next){
+  resourcesModel.select(`SELECT * FROM "public"."techs"`)
   .then( res => {    
     return res.rows;
   })
@@ -37,5 +39,17 @@ resources.getDBresources = function(req, res, next){
 
 }
 
+resources.getTechCategory = function(req, res, next){
+  resourcesModel.select(`SELECT * FROM "public"."tech_categories"`)
+  .then( res => {
+    return res.rows;
+  })
+  .then( (data) => {
+    console.log(" Data ", data);
+    res.status(200).json(data);
+    return next();    
+  })
+  .catch( err => `DB TC ERROR: ${err}`);
+}
 
 module.exports = resources;
