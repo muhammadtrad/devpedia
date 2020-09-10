@@ -55,19 +55,26 @@ input {
   border: 1px solid black;
 }
 
-.resources {
-  margin: auto;
-  width: 50%;
-  border: 3px solid #337AB7;
-  padding: 10px;
-  margin-top: 10px;
+.more_resources {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  border: 3px solid #337AB7
 }
 
-.resources-box{
-  width: 300px;
-  height: 100px;
-  border: 1px solid black;
+.more_resources_col {
+  width: 50%;
+}
+
+.title {
+  color: #337AB7;
+  margin-right: 7px;
+}
+
+.project_techs {
+  width: 100%;
+  align-items: left;
+}
+
+.link {
+  margin-right: 7px;
 }
