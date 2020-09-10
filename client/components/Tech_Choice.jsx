@@ -35,11 +35,11 @@ const Tech_Choice = () => {
 
 
   return (
-    <div className="more_resources">
-      <div>
+    <div id="tech_resources" className="more_resources">
+      <div className="subtitle-container">
         <h2 className="title">Technology Choices:</h2>
       </div>
-     {currentData.checkBoxes}
+      {currentData.checkBoxes}
     </div>
   );
 };

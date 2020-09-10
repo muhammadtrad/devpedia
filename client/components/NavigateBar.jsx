@@ -3,22 +3,16 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const NavigateBar = () => {
-
-
   return (
       <Navbar className="navigateBar" bg="primary" variant="dark">
-      <Nav className="mr-auto">
-      <Link style={{ color: 'white' }} to="/home">
-        <Navbar.Brand>Devpedia</Navbar.Brand>
-      </Link>
+      <Nav className="nav-left">
+        <Link to="/home"><Navbar.Brand>Devpedia</Navbar.Brand></Link>
       </Nav>
       <Nav className="nav-right">
-          <Nav.Link className="login-link" style={{ color: 'white' }} href="/login">
-            Login
-          </Nav.Link>
-          <Nav.Link style={{ color: 'white' }} href="/signup">
-            Signup
-          </Nav.Link>
+        <div id="navButtonsContainer">
+          <Nav.Link href="/login">Login</Nav.Link>
+          <Nav.Link href="/signup">Signup</Nav.Link>
+        </div>
       </Nav>
     </Navbar>
   );
