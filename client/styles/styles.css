@@ -1,3 +1,73 @@
 body{
   box-sizing: border-box;
 }
+
+.navigateBar{
+  width: 100%;
+  display: inline-block;
+  margin:0 auto;
+}
+
+.nav-right {
+  display: block;
+  float: right;
+  text-align: center;
+  margin-right: 50px;
+  padding-top: 15px;
+}
+
+.login-link {
+  margin-right: 20px;
+}
+
+.searchBox {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #337AB7;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+input {
+  outline: none;
+  font-weight: normal;
+  padding: 5px;
+  margin: 5px;
+}
+.githubInfo {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #337AB7;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-box{
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.resources {
+  margin: auto;
+  width: 50%;
+  border: 3px solid #337AB7;
+  padding: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resources-box{
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+}
