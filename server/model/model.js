@@ -21,7 +21,6 @@ class Model{
   }
 
   select(sqlquery){
-    console.log(`SQL QUERY ${sqlquery}`);
     return this.pool.query(sqlquery);
   }
 

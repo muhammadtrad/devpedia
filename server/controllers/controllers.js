@@ -26,7 +26,9 @@ resources.getReactHardCodedResources = function(req, res, next){
 
 //INSERT INTO Techs (tech_category, name) VALUES (1, ‘Vue’);
 resources.getTech = function(req, res, next){
-  resourcesModel.select(`SELECT * FROM "public"."techs"`)
+  console.log(" req.params ", req.query);
+
+  resourcesModel.select(`SELECT * FROM "public"."${req.query.requestQuery}"`)
   .then( res => {    
     return res.rows;
   })
@@ -40,7 +42,9 @@ resources.getTech = function(req, res, next){
 }
 
 resources.getTechCategory = function(req, res, next){
-  resourcesModel.select(`SELECT * FROM "public"."tech_categories"`)
+  console.log(" req.params ", req.params.requestQuery);
+  //front end fetch HTTP METHOD:GET db?requestQuery=tech_categories
+  resourcesModel.select(`SELECT * FROM "public".${req.params.requestQuery}`)
   .then( res => {
     return res.rows;
   })
