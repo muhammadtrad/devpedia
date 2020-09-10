@@ -1,0 +1,28 @@
+{
+  "Docs": "https://www.chaijs.com/",
+  "Github": "https://github.com/chaijs/chai",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=MLTRHc5dk6s",
+      "https://www.youtube.com/watch?v=qxE1D5qbQJU",
+      "https://www.youtube.com/watch?v=I4BZQr-5mBY"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=zHzaUtHncQg",
+      "https://www.youtube.com/watch?v=n0mB-RZhFa4",
+      "https://www.youtube.com/watch?v=ndXHwpy8zVw"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://codeburst.io/javascript-unit-testing-using-mocha-and-chai-1d97d9f18e71",
+      "https://www.sitepoint.com/unit-test-javascript-mocha-chai/",
+      "https://medium.com/@ashish_fagna/testing-nodejs-app-using-mocha-and-chai-ce76a077f947"
+    ],
+    "Overviews": [
+      "https://www.chaijs.com/guide/",
+      "https://devhints.io/chai",
+      "https://www.chaijs.com/api/"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Docs": "https://material-ui.com/",
+  "Github": "https://github.com/mui-org/material-ui",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=zT62eVxShsY",
+      "https://www.youtube.com/watch?v=bL-ZwwF6wTc",
+      "https://www.youtube.com/watch?v=WV6u_6ZNWkQ"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=pHclLuRolzE",
+      "https://www.youtube.com/watch?v=NdEOksfkrmo",
+      "https://www.youtube.com/watch?v=8AkLfYOgIrE"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://material-ui.com/getting-started/learn/",
+      "https://react.school/material-ui",
+      "https://reactgo.com/material-ui-react-tutorial/"
+    ],
+    "Overviews": [
+      "https://www.digitalocean.com/community/tutorials/react-material-ui",
+      "https://www.enginess.io/insights/design-trend-material-design",
+      "https://material.io/design/introduction/"
+    ]
+  }
+}

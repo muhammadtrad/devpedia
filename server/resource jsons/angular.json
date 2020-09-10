@@ -1,0 +1,28 @@
+{
+  "Docs": "https://angular.io/",
+  "Github": "https://github.com/angular/angular",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=k5E2AVpwsko",
+      "https://www.youtube.com/watch?v=Fdf5aTYRW0E",
+      "https://www.youtube.com/watch?v=2OHbjep_WjQ"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=VAkio68d51A",
+      "https://www.youtube.com/watch?v=WAZTZUgeLhQ",
+      "https://www.youtube.com/watch?v=8sC55WKzJW4"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://angular.io/start",
+      "https://www.w3schools.com/angular/",
+      "https://www.tutorialspoint.com/angular4/index.htm"
+    ],
+    "Overviews": [
+      "https://angular.io/guide/architecture",
+      "https://www.w3schools.com/whatis/whatis_angularjs.asp",
+      "https://www.sitepoint.com/angular-introduction/"
+    ]
+  }
+}

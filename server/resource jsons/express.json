@@ -1,0 +1,28 @@
+{
+  "Docs": "https://expressjs.com/",
+  "Github": "https://github.com/expressjs/express",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=L72fhGm1tfE",
+      "https://www.youtube.com/watch?v=JlgKybraoy4",
+      "https://www.youtube.com/watch?v=lY6icfhap2o"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=L6_CoHNSbwc",
+      "https://www.youtube.com/watch?v=2ojkb44XObc",
+      "https://www.youtube.com/watch?v=MIr1oxQ3pao"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs",
+      "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/skeleton_website",
+      "https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm"
+    ],
+    "Overviews": [
+      "https://www.pabbly.com/tutorials/expressjs-overview/",
+      "https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1",
+      "https://webapplog.com/express-js-fundamentals/"
+    ]
+  }
+}

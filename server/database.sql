@@ -75,10 +75,22 @@ INSERT INTO Tech_Categories (name) VALUES
   ('Main Library / Framework'),
   ('UI Library'),
   ('Server-Side Library'),
-  ('Query Language');
+  ('Database Type'),
+  ('Query Language'),
+  ('Testing Framework');
 
 INSERT INTO Techs (tech_category, name) VALUES
+  (1, 'Vue'),
+  (1, 'Angular'),
+  (1, 'React'),
+  (2, 'MaterialUI'),
+  (2, 'Bootstrap'),
   (3, 'Node'),
   (3, 'Express'),
-  (1, 'React'),
-  (4, 'PostgreSQL');
+  (4, 'PostgreSQL'),
+  (4, 'MongoDB'),
+  (5, 'GraphQL'),
+  (5, 'SQL'),
+  (6, 'Jest'),
+  (6, 'Mocha'),
+  (6, 'Chai');

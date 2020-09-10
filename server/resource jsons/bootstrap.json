@@ -1,0 +1,28 @@
+{
+  "Docs": "https://getbootstrap.com/docs/3.3/",
+  "Github": "https://github.com/twbs/bootstrap",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=gqOEoUR5RHg",
+      "https://www.youtube.com/watch?v=yalxT0PEx8c",
+      "https://www.youtube.com/watch?v=9cKsq14Kfsw"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=314m7YBRFvQ",
+      "https://www.youtube.com/watch?v=svPDhmXY1Yg",
+      "https://www.youtube.com/watch?v=bXeeMuKI2YM"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.w3schools.com/bootstrap4/",
+      "https://www.w3schools.com/bootstrap/",
+      "https://www.tutorialspoint.com/bootstrap/index.htm"
+    ],
+    "Overviews": [
+      "https://getbootstrap.com/docs/4.1/getting-started/introduction/",
+      "https://www.w3schools.com/whatis/whatis_bootstrap.asp",
+      "https://careerfoundry.com/en/blog/web-development/what-is-bootstrap-a-beginners-guide/"
+    ]
+  }
+}

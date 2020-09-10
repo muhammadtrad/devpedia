@@ -1,0 +1,28 @@
+{
+  "Docs": "https://nodejs.org/en/docs/",
+  "Github": "https://github.com/nodejs/node",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+      "https://www.youtube.com/watch?v=fBNz5xF-Kx4",
+      "https://www.youtube.com/watch?v=RLtyhwFtXQA"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=pU9Q6oiQNd0",
+      "https://www.youtube.com/watch?v=uVwtVBpw7RQ",
+      "https://www.youtube.com/watch?v=yEHCfRWz-EI"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.w3schools.com/nodejs/",
+      "https://www.tutorialspoint.com/nodejs/index.htm",
+      "https://nodeschool.io/"
+    ],
+    "Overviews": [
+      "https://nodejs.org/en/about/",
+      "https://learn.co/lessons/node-overview",
+      "https://codeburst.io/the-only-nodejs-introduction-youll-ever-need-d969a47ef219"
+    ]
+  }
+}

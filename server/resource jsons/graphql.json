@@ -1,0 +1,28 @@
+{
+  "Docs": "https://graphql.org/",
+  "Github": "https://github.com/graphql/graphql-spec",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=Y0lDGjwRYKw",
+      "https://www.youtube.com/watch?v=ed8SzALpx1Q",
+      "https://www.youtube.com/watch?v=I6ypD7qv3Z8"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=ZQL7tL2S0oQ",
+      "https://www.youtube.com/watch?v=VjXb3PRL9WI",
+      "https://www.youtube.com/watch?v=oPZoNjyTW3w"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://graphql.org/graphql-js/",
+      "https://www.howtographql.com/",
+      "https://www.tutorialspoint.com/graphql/index.htm"
+    ],
+    "Overviews": [
+      "https://graphql.org/learn/",
+      "https://medium.com/devgorilla/what-is-graphql-f0902a959e4",
+      "https://www.redhat.com/en/topics/api/what-is-graphql"
+    ]
+  }
+}

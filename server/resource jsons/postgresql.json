@@ -1,0 +1,28 @@
+{
+  "Docs": "https://www.postgresql.org/docs/",
+  "Github": "https://github.com/postgres/postgres",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "https://www.youtube.com/watch?v=Dd2ej-QKrWY",
+      "https://www.youtube.com/watch?v=-VO7YjQeG6Y"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=fZQI7nBu32M",
+      "https://www.youtube.com/watch?v=tzbA7VniRpw",
+      "https://www.youtube.com/watch?v=GI3eO14Fy90"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.postgresqltutorial.com/",
+      "https://www.tutorialspoint.com/postgresql/index.htm",
+      "https://www.postgresql.org/docs/8.0/tutorial.html"
+    ],
+    "Overviews": [
+      "https://pgdash.io/blog/postgres-server-side-programming.html",
+      "https://www.guru99.com/introduction-postgresql.html",
+      "https://hub.packtpub.com/overview-postgresql/"
+    ]
+  }
+}

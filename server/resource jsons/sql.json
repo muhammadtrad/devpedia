@@ -1,0 +1,28 @@
+{
+  "Docs": "https://docs.microsoft.com/en-us/sql/",
+  "Github": "https://github.com/mysql/mysql-server",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=HXV3zeQKqGY&t=10686s",
+      "https://www.youtube.com/watch?v=7S_tz1z_5bA",
+      "https://www.youtube.com/watch?v=9Pzj7Aj25lw"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=27axs9dO7AE",
+      "https://www.youtube.com/watch?v=FR4QIeZaPeM",
+      "https://www.youtube.com/watch?v=ld6YS5ZK2tE"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.w3schools.com/sql/",
+      "https://www.tutorialspoint.com/sql/index.htm",
+      "https://www.geeksforgeeks.org/sql-tutorial/"
+    ],
+    "Overviews": [
+      "http://www.sqlcourse.com/intro.html",
+      "https://www.w3schools.com/sql/sql_intro.asp",
+      "https://www.infoworld.com/article/3219795/what-is-sql-the-first-language-of-data-analysis.html"
+    ]
+  }
+}

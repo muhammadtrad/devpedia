@@ -1,0 +1,28 @@
+{
+  "Docs": "https://vuejs.org/",
+  "Github": "https://github.com/vuejs/vue",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=Wy9q22isx3U",
+      "https://www.youtube.com/watch?v=4deVCNJq3qc&t=100s",
+      "https://www.youtube.com/watch?v=JLc-hWsPTUY"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=nhBVL41-_Cw",
+      "https://www.youtube.com/watch?v=FtXd_qQJgfI&t=205s",
+      "https://www.youtube.com/watch?v=3I8EFGIORRc"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.taniarascia.com/getting-started-with-vue/",
+      "https://www.tutorialspoint.com/vuejs/index.htm",
+      "https://www.tutorialspoint.com/vuejs/index.htm"
+    ],
+    "Overviews": [
+      "https://vuejs.org/v2/guide/",
+      "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started",
+      "https://www.w3schools.com/whatis/whatis_vue.asp"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Docs": "https://docs.mongodb.com/",
+  "Github": "https://github.com/mongodb/mongo",
+  "Videos": {
+    "Tutorials": [
+      "https://www.youtube.com/watch?v=-56x56UppqQ",
+      "https://www.youtube.com/watch?v=t4wPUQ5RElY",
+      "https://www.youtube.com/watch?v=E-1xI85Zog8"
+    ],
+    "Overviews": [
+      "https://www.youtube.com/watch?v=pWbMrx5rVBE",
+      "https://www.youtube.com/watch?v=EE8ZTQxa0AM",
+      "https://www.youtube.com/watch?v=bKjH8WhSu_E"
+    ]
+  },
+  "Sites": {
+    "Tutorials": [
+      "https://www.tutorialspoint.com/mongodb/index.htm",
+      "https://docs.mongodb.com/manual/tutorial",
+      "https://beginnersbook.com/2017/09/mongodb-tutorial/"
+    ],
+    "Overviews": [
+      "https://www.mongodb.com/what-is-mongodb",
+      "https://www.guru99.com/what-is-mongodb.html",
+      "https://intellipaat.com/blog/what-is-mongodb/"
+    ]
+  }
+}
