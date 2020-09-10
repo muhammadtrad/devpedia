@@ -11,12 +11,8 @@ const Main = () => {
 
   const [currentChoices, updateChoices] = useState(initialData);
 
-  
-
-
   return (
-    <div className="main">
-      {/* <Projects /> */}
+    <div id="main">
       <Tech_Choice updateChoices = {updateChoices} currentChoices={currentChoices}/>
       <Tech_Resources techChoices={currentChoices.techChoices}/>
       <More_Resources techChoices={currentChoices.techChoices}/>

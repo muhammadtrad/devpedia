@@ -8,12 +8,10 @@ const App = () => {
 
 
   return (
-    <div className="app">
-      <Router>
-        <NavigateBar />
-        <Main />
-      </Router>
-    </div>
+    <Router>
+      <NavigateBar />
+      <Main />
+    </Router>
   );
 };
 

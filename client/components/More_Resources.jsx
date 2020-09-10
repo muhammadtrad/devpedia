@@ -37,16 +37,17 @@ const More_Resources = (props) => {
 
   return (
     <div className="more_resources">
-    <div>
-    <h2 className="title">More Resources:</h2>
-      <br />
-    </div>
-    <div className="more_resources_col">
-      <Videos />
-    </div>
-    <div className="more_resources_col">
-      <Text />
-    </div>
+      <div className="subtitle-container">
+        <h2 className="title">Project Technologies:</h2>
+      </div>
+      <div className="project_tech_container">
+        <div className="more_resources_col">
+          <Videos />
+        </div>
+        <div className="more_resources_col">
+          <Text />
+        </div>
+      </div>
     </div>
   );
 };
