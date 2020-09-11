@@ -1,7 +1,6 @@
 import React from "react";
 const { useState, useEffect } = React;
 import CheckBox from './checkBox'; 
-import BR from './br';
 const Tech_Choice = (props) => {
 
   const initialData = Object.freeze({ checkBoxes: [] });
@@ -28,10 +27,7 @@ const Tech_Choice = (props) => {
     let checkBoxes = [];
     console.log(arr);
     arr.forEach((el, index) => {
-      if( index % 6 === 0){
-        checkBoxes.push(<BR />);
-        console.log(" HERE ");
-      }  
+
       let techItem = <CheckBox  key={index} name={el} value={el} checkedBoxes={checkedBoxes}/>
       checkBoxes.push(techItem);
       console.log('techItem', techItem);
