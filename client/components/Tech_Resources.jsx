@@ -51,7 +51,7 @@ const Tech_Resources = (props) => {
       <h2 className="title">Project Technologies:</h2>      
     </div>
     <div className="cards-container">
-    {displayResources(techChoices)}      
+     {displayResources(techChoices)}      
     </div>
     </div>
   );

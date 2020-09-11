@@ -27,9 +27,10 @@ const Tech_Choice = (props) => {
     let checkBoxes = [];
     console.log(arr);
     arr.forEach((el, index) => {
-     let techItem = <CheckBox  key={index} name={el} value={el} checkedBoxes={checkedBoxes}/>
-     checkBoxes.push(techItem);
-     console.log('techItem', techItem);
+
+      let techItem = <CheckBox  key={index} name={el} value={el} checkedBoxes={checkedBoxes}/>
+      checkBoxes.push(techItem);
+      console.log('techItem', techItem);
     })
     updateData({ checkBoxes });
     console.log('checkboxes', currentData.checkBoxes);
@@ -48,7 +49,6 @@ const Tech_Choice = (props) => {
       createCheckBoxes(techArr);
     });
 
-    
   }, []);
 
 

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const NavigateBar = () => {
   return (
-      <Navbar className="navigateBar" bg="primary" variant="dark">
+    <Navbar className="navigateBar" bg="primary" variant="dark">
       <Nav className="nav-left">
-        <Link to="/home"><Navbar.Brand>Devpedia</Navbar.Brand></Link>
+        <h2>Devpedia</h2>
       </Nav>
       <Nav className="nav-right">
         <div id="navButtonsContainer">
