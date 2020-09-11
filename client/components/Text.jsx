@@ -1,10 +1,23 @@
 import React from "react";
-import Tutorials from './Tutorials';
-import Overviews from './Overviews';
 
-const Text = () => {
+const Text = (props) => {
+const { text } = props;
 
+const displayOverview = () => {
+  if (text){
+    let overview = [];
+    text.Sites.Overviews.forEach((el) => overview.push(<li><a>{el}</a></li>));
+    return overview;
+  }
+}
 
+const displayTutorials = () => {
+  if (text){
+    let tutorials = [];
+    text.Sites.Tutorials.forEach((el) => tutorials.push(<li><a>{el}</a></li>));
+    return tutorials;
+  }
+}
   return (
     <div className="more_resources_child">
     <div>
@@ -12,10 +25,12 @@ const Text = () => {
       <br />
     </div>
     <div>
-      <Tutorials />
+      <h3>Tutorials</h3>
+      {displayTutorials()}
     </div>
     <div>
-      <Overviews />
+      <h3>Overviews</h3>
+      {displayOverview()}
     </div>
     </div>
   );

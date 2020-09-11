@@ -18,7 +18,7 @@ import ResourceItem from './ResourceItem';
 
 const Tech_Resources = (props) => {
 
-  const { techChoices } = props;
+  const { techChoices, moreResources } = props;
   const  resourceInfo = {
     Angular,
     Bootstrap,
@@ -40,8 +40,7 @@ const Tech_Resources = (props) => {
     let compArr = [];
     console.log(resourceInfo);
     resources.forEach((el) => {
-      console.log(el);
-      let item = <ResourceItem name={el} doc={resourceInfo[el].Docs} github={resourceInfo[el].Github}/>
+      let item = <ResourceItem name={el} doc={resourceInfo[el].Docs} github={resourceInfo[el].Github} moreResources={moreResources}/>
       compArr.push(item);
     })
     return compArr;

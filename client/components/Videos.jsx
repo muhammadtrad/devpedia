@@ -1,10 +1,23 @@
 import React from "react";
-import Tutorials from './Tutorials';
-import Overviews from './Overviews';
 
-const Videos = () => {
+const Videos = (props) => {
+const { videos } = props;
+  
+const displayOverview = () => {
+  if (videos){
+    let overview = [];
+    videos.Videos.Overviews.forEach((el) => overview.push(<li><a>{el}</a></li>));
+    return overview;
+  }
+}
 
-
+const displayTutorials = () => {
+  if (videos){
+    let tutorials = [];
+    videos.Videos.Tutorials.forEach((el) => tutorials.push(<li><a>{el}</a></li>));
+    return tutorials;
+  }
+}
   return (
     <div className="more_resources_child">
     <div>
@@ -12,10 +25,12 @@ const Videos = () => {
       <br />
     </div>
     <div>
-      <Tutorials />
+      <h3>Tutorials</h3>
+      {displayTutorials()}
     </div>
     <div>
-      <Overviews />
+      <h3>Overview</h3>
+      {displayOverview()}
     </div>
     </div>
   );

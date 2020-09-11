@@ -7,15 +7,21 @@ const { useState, useEffect } = React;
 
 const Main = () => {
 
-  const initialData = Object.freeze({ techChoices : [] });
+  const initialData = { techChoices : [], selectedTech: ''};
 
   const [currentChoices, updateChoices] = useState(initialData);
+
+  const moreResources = (name) => {
+  
+    updateChoices({ ...currentChoices, selectedTech: name});
+    console.log(currentChoices.selectedTech);
+  };
 
   return (
     <div id="main">
       <Tech_Choice updateChoices = {updateChoices} currentChoices={currentChoices}/>
-      <Tech_Resources techChoices={currentChoices.techChoices}/>
-      <More_Resources techChoices={currentChoices.techChoices}/>
+      <Tech_Resources techChoices={currentChoices.techChoices} moreResources={moreResources}/>
+      <More_Resources selectedTech={currentChoices.selectedTech}/>
     </div>
   );
 };
