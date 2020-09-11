@@ -58,9 +58,9 @@ body{
   width: 50%;
   color: white;
 }
-.nav-left span{
+.nav-left h2{
     font-family: 'Architects Daughter', cursive;
-    font-size: 4.2rem;
+    font-size: 4.1rem;
 }
 
 .login-link {

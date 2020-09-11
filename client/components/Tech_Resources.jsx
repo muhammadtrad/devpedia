@@ -15,6 +15,7 @@ const SQL = require('../../server/model/sql.json');
 const Vue = require('../../server/model/vue.json');
 
 import ResourceItem from './ResourceItem';
+import BR from "./br";
 
 const Tech_Resources = (props) => {
 
@@ -39,8 +40,12 @@ const Tech_Resources = (props) => {
   const displayResources = (resources) =>{
     let compArr = [];
     console.log(resourceInfo);
-    resources.forEach((el) => {
-      console.log(el);
+    resources.forEach((el, idx) => {
+      console.log(" idx ", idx);
+      if(idx !== 0 &&  idx % 6 === 0){
+        console.log(el);
+        compArr.push(<BR />);
+      }
       let item = <ResourceItem name={el} doc={resourceInfo[el].Docs} github={resourceInfo[el].Github}/>
       compArr.push(item);
     })
@@ -52,7 +57,7 @@ const Tech_Resources = (props) => {
       <h2 className="title">Project Technologies:</h2>      
     </div>
     <div className="cards-container">
-    {displayResources(techChoices)}      
+     {displayResources(techChoices)}      
     </div>
     </div>
   );
